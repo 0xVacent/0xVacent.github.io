@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+<!-- Add your site or application content here -->
+
+
+
+<div class="title">
+
+    <p id="goBack" onclick="backHome()"><a>back</a></p>
+
+    <h1>
+        0xVacent's <br>
+        Calculator
+    </h1>
+
+</div>
+
+
+<div class="calculator">
+    <table id="explode-table">
+        <tr>
+            <th colspan="5" id="screen">0</th>
+        </tr>
+
+        <tr>
+            <td class="calculatorNumber">7</td>
+            <td class="calculatorNumber">8</td>
+            <td class="calculatorNumber">9</td>
+            <td class="calculatorMethod">C</td>
+            <td class="calculatorMethod">CE</td>
+        </tr>
+
+        <tr>
+            <td class="calculatorNumber">4</td>
+            <td class="calculatorNumber">5</td>
+            <td class="calculatorNumber">6</td>
+            <td class="calculatorOperator">+</td>
+            <td class="calculatorOperator">-</td>
+        </tr>
+
+        <tr>
+            <td class="calculatorNumber">1</td>
+            <td class="calculatorNumber">2</td>
+            <td class="calculatorNumber">3</td>
+            <td class="calculatorOperator">/</td>
+            <td class="calculatorOperator">*</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="calculatorNumber">0</td>
+            <td colspan="3" class="calculatorMethod">=</td>
+
+        </tr>
+    </table>
+    <p id="final-words">Dont try to divide by 0!</p>
+
+</div>
+
+
+
+<script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>
